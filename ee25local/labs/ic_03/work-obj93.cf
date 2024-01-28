@@ -1,0 +1,7 @@
+v 4
+file . "and4.vhd" "2b1e3fe62bebc7673df066696f1f38100e00997b" "20230922043535.094":
+  entity and4 at 1( 0) + 0 on 51;
+  architecture structural of and4 at 14( 220) + 0 on 52;
+file . "and4_tb.vhd" "fb150c753628118214d2fb1dc21a0b63b46fd682" "20230922043517.241":
+  entity and4_tb at 1( 0) + 0 on 47;
+  architecture structural of and4_tb at 10( 123) + 0 on 48;

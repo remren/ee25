@@ -1,0 +1,7 @@
+v 4
+file . "or_gate.vhd" "d255ab918c2039dd51bdb45e5280ec54cb3b9310" "20230917030349.946":
+  entity or_gate at 1( 0) + 0 on 23;
+  architecture dataflow of or_gate at 12( 185) + 0 on 24;
+file . "tb_or_gate.vhd" "7cd279918931aefeaadb448ff5290b9f3aedd0bb" "20230917030328.048":
+  entity or_gate_tb at 1( 0) + 0 on 17;
+  architecture structural of or_gate_tb at 10( 128) + 0 on 18;

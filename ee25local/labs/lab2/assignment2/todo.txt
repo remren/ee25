@@ -1,0 +1,32 @@
+Todo (- for TODO, + for COMPLETED)
+
+
++ Develop Full Adder or Carry Lookahead Adder
++ Implement into ADD
++ Implement ALU Controls
+- Implement ALU
+    + 0000: AND
+    + 0001: OR
+    + 0010: Add
+        + Overflow?
+            in0 msb | in1 msb | result msb | overflow
+            0         0         0            0
+            0         0         1            1      
+            1         1         
+            1         0         1            0
+            1         0         1            0
+            1         0         1            0
+            
+            (in0 nxor in1) and (result xor in0)
+
+    + 0110: Subtract (minuend, subtrahend)
+        + 1s complement of subtrahend
+        + 2s complement (add 1) of subtrahend
+        + result is difference
+        + Overflow, is it just sign difference?
+            Overflow not fully tested. Can't think of a good case, got peabrain
+    + 0111: Pass Input b
+    + 1100: NOR
++ DMEM Testbench
++ Registers
+- Lab Report

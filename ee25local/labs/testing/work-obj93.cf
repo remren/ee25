@@ -1,0 +1,7 @@
+v 4
+file . "tb_tutorial_nor.vhd" "ed053bd36eb25f9dd5e29f9960a3d51dcb254e1e" "20230917032050.832":
+  entity tb_nor at 1( 0) + 0 on 79;
+  architecture structural of tb_nor at 10( 120) + 0 on 80;
+file . "tutorial_nor.vhd" "4495931c0b1c5c197849b67132762ff2ed9435c6" "20230917032255.744":
+  entity nor_gate at 1( 0) + 0 on 81;
+  architecture dataflow of nor_gate at 14( 202) + 0 on 82;

@@ -1,0 +1,16 @@
+v 4
+file . "hazardmux.vhd" "cb50e5bf0e75c6b461ef9b2dc475a35b1ff6d3d4" "20231203040355.610":
+  entity hazardmux at 1( 0) + 0 on 25;
+  architecture dataflow of hazardmux at 32( 1339) + 0 on 26;
+file . "forwardingmux.vhd" "e99e07d357d88addc6a44b6f88cabd0c2583bfdd" "20231202215226.054":
+  entity forwardingmux at 1( 0) + 0 on 21;
+  architecture dataflow of forwardingmux at 16( 549) + 0 on 22;
+file . "forwardingunit.vhd" "b196537d4a869a6467f16c5fb23e04471a2684f1" "20231202215056.835":
+  entity forwardingunit at 1( 0) + 0 on 17;
+  architecture dataflow of forwardingunit at 20( 570) + 0 on 18;
+file . "ID_EX.vhd" "a1c4d3cbee0570992c493e9aa6b12cedc8b7b69f" "20231202214738.741":
+  entity id_ex at 1( 0) + 0 on 15;
+  architecture dataflow of id_ex at 54( 2671) + 0 on 16;
+file . "hazarddetector.vhd" "43b934b46814fb333eb35c5fa4e52f0bfc681b22" "20231203034414.455":
+  entity hazarddetector at 1( 0) + 0 on 23;
+  architecture dataflow of hazarddetector at 19( 522) + 0 on 24;

@@ -1,0 +1,7 @@
+v 4
+file . "cpucontrol_testbench.vhd" "8ad5347cfea8ebe8f304121eb50f5f61b9b852a7" "20231020024510.631":
+  entity cpucontrol_testbench at 1( 0) + 0 on 13;
+  architecture structural of cpucontrol_testbench at 9( 151) + 0 on 14;
+file . "cpucontrol.vhd" "910e8e8f497a11a9626f8591c3e06bdf3e8cb074" "20231020024510.629":
+  entity cpucontrol at 1( 0) + 0 on 11;
+  architecture behavioral of cpucontrol at 25( 784) + 0 on 12;

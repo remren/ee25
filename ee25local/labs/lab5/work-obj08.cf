@@ -1,0 +1,70 @@
+v 4
+file . "imem_p1.vhd" "7f5bbc77884055acddad67d83d8d008e5c627bca" "20231204191330.251":
+  entity imem at 1( 0) + 0 on 1829;
+  architecture behavioral of imem at 16( 460) + 0 on 1830;
+file . "hazarddetector.vhd" "43b934b46814fb333eb35c5fa4e52f0bfc681b22" "20231204191330.230":
+  entity hazarddetector at 1( 0) + 0 on 1825;
+  architecture dataflow of hazarddetector at 19( 522) + 0 on 1826;
+file . "pipecpu1_tb.vhd" "0437cee933f1460e250f69719adc047afd8111c7" "20231204191330.273":
+  entity pipecpu_testbench at 1( 0) + 0 on 1833;
+  architecture structural of pipecpu_testbench at 13( 321) + 0 on 1834;
+file . "pipelinedcpu1.vhd" "65c77078207afdcd34fc66d5fc90b5fd44c3e9f6" "20231204191330.271":
+  entity pipelinedcpu1 at 1( 0) + 0 on 1831;
+  architecture structural of pipelinedcpu1 at 26( 868) + 0 on 1832;
+file . "registers.vhd" "bac008a8df0e9b21bdc4e842af629cff81569ee4" "20231204191330.184":
+  entity registers at 2( 1) + 0 on 1811;
+  architecture behaveioral of registers at 23( 703) + 0 on 1812;
+file . "dmem.vhd" "235910e0972a5e6b2f68f80440b521d0a1981253" "20231204191330.182":
+  entity dmem at 1( 0) + 0 on 1809;
+  architecture behavioral of dmem at 23( 1065) + 0 on 1810;
+file . "cpucontrol.vhd" "b3629e5ab8078efb39f42a600c5d4361603de958" "20231204191330.178":
+  entity cpucontrol at 1( 0) + 0 on 1807;
+  architecture behavioral of cpucontrol at 25( 784) + 0 on 1808;
+file . "alucontrol.vhd" "cc3025625ea03baf092808e10766d4859f8f3d5f" "20231204191330.175":
+  entity alucontrol at 1( 0) + 0 on 1805;
+  architecture dataflow of alucontrol at 18( 760) + 0 on 1806;
+file . "alu.vhd" "c820cbc561e38613535f4622fdc0ee501da0a5a2" "20231204191330.173":
+  entity alu at 1( 0) + 0 on 1803;
+  architecture structural of alu at 31( 1089) + 0 on 1804;
+file . "signextend.vhd" "fd958e16f540d0b7bd6000e477715caa04167dae" "20231204191330.134":
+  entity signextend at 1( 0) + 0 on 1797;
+  architecture behavioral of signextend at 12( 222) + 0 on 1798;
+file . "shiftleft2.vhd" "626578ac2a0bb4e4948dc3fae532c1e4257362ff" "20231204191330.132":
+  entity shiftleft2 at 1( 0) + 0 on 1795;
+  architecture dataflow of shiftleft2 at 12( 244) + 0 on 1796;
+file . "pc.vhd" "a34548c258b6a09d1858743f5958fb35d3ec65c1" "20231204191330.130":
+  entity pc at 1( 0) + 0 on 1793;
+  architecture behavioral of pc at 16( 639) + 0 on 1794;
+file . "mux64.vhd" "bd650f2bd53c0e61254d9b64d6ed7decd2a7d90b" "20231204191330.128":
+  entity mux64 at 1( 0) + 0 on 1791;
+  architecture dataflow of mux64 at 14( 366) + 0 on 1792;
+file . "mux5.vhd" "b06026b1ef756ded49b91b5cd05d1848ca7c224f" "20231204191330.126":
+  entity mux5 at 1( 0) + 0 on 1789;
+  architecture dataflow of mux5 at 14( 360) + 0 on 1790;
+file . "fulladder.vhd" "3b6376b0f390ceb48ae92cc9921edd019492419c" "20231204191330.152":
+  entity fa at 1( 0) + 0 on 1799;
+  architecture dataflow of fa at 16( 307) + 0 on 1800;
+file . "add.vhd" "0dfb5f9c75f2312ea02bee29a93e5ae05845e41c" "20231204191330.154":
+  entity add at 1( 0) + 0 on 1801;
+  architecture structural of add at 17( 353) + 0 on 1802;
+file . "IF_ID.vhd" "f4699e2dfb84a1391d3a8083a16aa110407ba21e" "20231204191330.202":
+  entity if_id at 1( 0) + 0 on 1813;
+  architecture dataflow of if_id at 22( 739) + 0 on 1814;
+file . "ID_EX.vhd" "1d2421a5af4743aa67e276966e2f9396fb581f3c" "20231204191330.204":
+  entity id_ex at 1( 0) + 0 on 1815;
+  architecture dataflow of id_ex at 60( 3014) + 0 on 1816;
+file . "EX_MEM.vhd" "41a7e4bf999166098a7e7b6152fdab115a5029a5" "20231204191330.205":
+  entity ex_mem at 1( 0) + 0 on 1817;
+  architecture dataflow of ex_mem at 49( 2201) + 0 on 1818;
+file . "MEM_WB.vhd" "43e38e534d27d6322be53de6da3906aa95861e62" "20231204191330.207":
+  entity mem_wb at 1( 0) + 0 on 1819;
+  architecture dataflow of mem_wb at 35( 1294) + 0 on 1820;
+file . "forwardingunit.vhd" "ad3037c71477d84c1154b51a2552edfc6c7744a0" "20231204191330.226":
+  entity forwardingunit at 1( 0) + 0 on 1821;
+  architecture dataflow of forwardingunit at 22( 732) + 0 on 1822;
+file . "forwardingmux.vhd" "e99e07d357d88addc6a44b6f88cabd0c2583bfdd" "20231204191330.228":
+  entity forwardingmux at 1( 0) + 0 on 1823;
+  architecture dataflow of forwardingmux at 16( 549) + 0 on 1824;
+file . "hazardmux.vhd" "cb50e5bf0e75c6b461ef9b2dc475a35b1ff6d3d4" "20231204191330.232":
+  entity hazardmux at 1( 0) + 0 on 1827;
+  architecture dataflow of hazardmux at 32( 1339) + 0 on 1828;

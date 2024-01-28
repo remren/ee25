@@ -1,0 +1,22 @@
+v 4
+file . "test.vhd" "7e12787dad9e55824ea4521a376c599bb6e4ee76" "20231007015936.340":
+  entity tregisters at 1( 0) + 0 on 51;
+  architecture behavioral of tregisters at 31( 1611) + 0 on 52;
+file . "alucontrol.vhd" "4ad1148a27e4ee206eb6e90b919cc99e77a3ff30" "20231005002538.532":
+  entity alucontrol at 1( 0) + 0 on 43;
+  architecture dataflow of alucontrol at 18( 760) + 0 on 44;
+file . "add_testbench.vhd" "f11c4ea77d510ffd0de0fbb1bbca8768a50147de" "20231004234552.527":
+  entity add_testbench at 1( 0) + 0 on 41;
+  architecture structural of add_testbench at 9( 141) + 0 on 42;
+file . "fulladder_tb.vhd" "4438f9910723491aa1b9a510ab4277c872750014" "20231004181431.003":
+  entity fulladder_tb at 1( 0) + 0 on 13;
+  architecture structural of fulladder_tb at 9( 139) + 0 on 14;
+file . "fulladder.vhd" "3b6376b0f390ceb48ae92cc9921edd019492419c" "20231004181431.002":
+  entity fa at 1( 0) + 0 on 11;
+  architecture dataflow of fa at 16( 307) + 0 on 12;
+file . "add.vhd" "c8151b831453e2168335f7595dda91268a24ce4c" "20231004215357.367":
+  entity add at 1( 0) + 0 on 31;
+  architecture structural of add at 17( 353) + 0 on 32;
+file . "add_tb.vhd" "f5f8fe1910db58d8799a23dc21ecb0914c993357" "20231004215357.370":
+  entity add_tb at 1( 0) + 0 on 33;
+  architecture structural of add_tb at 9( 127) + 0 on 34;
